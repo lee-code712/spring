@@ -1,3 +1,6 @@
 spring:
   application:
     name: core
+
+  main:
+    allow-bean-definition-overriding: false # 자동 빈 등록, 수동 빈 등록 오버라이딩 허용 설정
