@@ -30,7 +30,7 @@ public class ComponentFilterAppConfigTest {
             includeFilters = @Filter(type = FilterType.ANNOTATION, classes =  MyIncludeComponent.class), // 기본값, 어노테이션 인식
             excludeFilters = {
                     @Filter(type = FilterType.ANNOTATION, classes =  MyExcludeComponent.class),
-                    @Filter(type = FilterType.ASSIGNABLE_TYPE, classes = BeanA.class) // 지정한 타입과 자식 타입을 인식
+//                    @Filter(type = FilterType.ASSIGNABLE_TYPE, classes = BeanA.class) // 지정한 타입과 자식 타입을 인식
             }
     )
     static class ComponentFilterAppConfig {

@@ -16,8 +16,8 @@ import org.springframework.context.annotation.FilterType;
 public class AutoAppConfig {
 
     // 자동 빈 등록(@Component)한 상태에서 수동 빈 등록을 한 경우 -> 수동 빈 등록이 우선됨
-    @Bean(name = "memoryMemberRepository")
-    MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 }
